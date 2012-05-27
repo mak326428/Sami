@@ -9,6 +9,7 @@ if (file_exists($a = __DIR__.'/../../autoload.php')) {
 }
 
 use Sami\Console\Application;
-
+/* Begin */
 $application = new Application();
 $application->run();
+/* End */
